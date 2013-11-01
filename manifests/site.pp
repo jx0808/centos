@@ -6,6 +6,11 @@ node default
 	}
 
 	package 
+	{ 'php':
+	ensure => installed,
+	}
+
+	package 
 	{ 'mod_ssl':
 	ensure => installed,
 	}
