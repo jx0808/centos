@@ -4,4 +4,9 @@ node default
 	{ 'httpd':
 	ensure => installed,
 	}
+
+	service
+	{ 'httpd':
+	ensure => running,
+	}
 }
